@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+<h1>Login</h1>
+    <form action="">
+        {{ form.email.label }}<br>
+        {{ form.email }}<br>
+
+        {{ form.password.label }}<br>
+        {{ form.password }}<br>
+
+        {{ form.button }}<br>
+    </form>
+</body>
+</html>
